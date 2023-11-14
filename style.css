@@ -97,6 +97,15 @@ div {
     background-color: aqua;
 }
 
+.free-trail2{
+    float: right;
+    vertical-align: center;
+    color: white;
+    height: 20px;
+    margin-bottom: 20px;
+    background-color: aqua;
+}
+
 .rettangolo2a {
     height: 300px;
     padding-left: 75px;
@@ -104,14 +113,31 @@ div {
 
 .rettangolo2 {
     height: 1000px;
+    margin-right: 300px;
+    justify-content: center;
 }
 
+.scritte {
+  padding: 15px;
+}
+
+#Q1 {
+  font-size: 25px;
+}
+
+#Q2 {
+  font-size: 15px;
+}
 .colonne {
     display: inline-block;
-    background-color:blue;
-    width: 230px;
-    height: 600px;
-    margin-left: 75px;
+    background-color:lightblue;
+    width: 31%;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.fa-ul {
+    list-style-type: none;
 }
 
 .titolo {
@@ -142,6 +168,7 @@ div {
     margin-left: 75px;
     width: 845px;
     padding-top: 20px;
+    margin-top: 20px;
 }
 
 .rettangolo3-scritta1 {
@@ -173,18 +200,202 @@ div {
     padding-left: 10px;
 }
 
+.Dropbox-Business > h1{
+    padding-left: 75px;
+    margin-right: 450px;
+    font-size: 150%;
+}
+
+.Dropbox-Business > a{
+    padding-left: 75px;
+}
+
+.block {
+    display: flex;
+}
+
+.quadrato1 {
+    height: 300px;
+    width: calc(100% / 3);
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.quadrato1-a {
+    height: 200px;
+    width: calc(100% / 2);
+    background-color: lightgreen;
+}
+
+.quadrato1 img {
+    position: relative;
+}
+
+.quadrato1-a img {
+    height: 50px;
+    width: 100px;
+    top: 40%;
+}
+
+.quadrato1-b {
+    width: calc(100% / 2);
+    height: 200px;
+    background-color: brown;
+}
+
+.quadrato1-b img {
+    height: 100px;
+    width: 200px;
+    top: 20%;
+}
+
+.quadrato1-c {
+    width: calc(100% / 2);
+    height: 200px;
+    background-color: blue;
+}
+
+.quadrato1-c img {
+    width: 130px;
+    height: 30px;
+    top: 40%;
+}
+
+.quadrato1-d {
+    width: calc(100% / 2);
+    height: 200px;
+    background-color: red;
+}
+
+.quadrato1-d img {
+    height: 80px;
+    width: 140px;
+    top: 30%;
+}
+
+.quadrato2 {
+    width: calc(100% / 3);
+    background-color: lightgray;
+    height: 400px;
+}
+
+.quadrato2-a {
+    padding: 20px;
+}
+
+.quadrato2-a img {
+    height: 100px;
+    width: 200px;
+}
+
+.quadrato2-a div:last-child {
+    top: 70px;
+    position: relative;
+}
+
+.quadrato2-a div {
+    top: 30px;
+    position: relative;
+}
+
+.quadrato3 {
+    height: 300px;
+    width: calc(100% / 3);
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.quadrato3-a {
+    height: 200px;
+    width: calc(100% / 2);
+    background-color: red;
+}
+
+.quadrato3 img {
+    position: relative;
+}
+
+.quadrato3-a img {
+    height: 50px;
+    width: 100px;
+    top: 40%;
+}
+
+.quadrato3-b {
+    width: calc(100% / 2);
+    height: 200px;
+    background-color: lightblue;
+}
+
+.quadrato3-b img {
+    height: 100px;
+    width: 200px;
+    top: 20%;
+}
+
+.quadrato3-c {
+    width: calc(100% / 2);
+    height: 200px;
+    background-color: darkblue;
+}
+
+.quadrato3-c img {
+    width: 130px;
+    height: 30px;
+    top: 40%;
+}
+
+.quadrato3-d {
+    width: calc(100% / 2);
+    height: 200px;
+    background-color: yellow;
+}
+
+.quadrato3-d img {
+    height: 80px;
+    width: 140px;
+    top: 30%;
+}
+
+.prova-gratuita {
+    height: 300px;
+    background-color: lightblue;
+    padding-left: 375px;
+}
+
+.prova-gratuita-1 {
+    display: flex;
+}
+
+.prova-gratuita div {
+    position: relative;
+    top: 50%;
+    font-size: 25px;
+    color: lightcoral;
+}
+
+.prova-gratuita-1 button {
+    margin-left: 100px;
+    padding: 10px;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
 }
 
-main {
+main > section{
     margin-left: 300px;
+    margin-right: 100px;
 }
 
 .foto1 {
-    width: 300px;
-    height: 250px;
-    margin-left: 25px;
-    margin-top: 50px;
+    width: 250px;
+    height: 200px;
+    margin-left: 75px;
+    margin-top: 125px;
 }
